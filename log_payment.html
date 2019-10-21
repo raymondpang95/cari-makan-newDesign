@@ -5,18 +5,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login</title>
+    <title>payment log</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/mdb.min.css" rel="stylesheet">
     <link href="./style/style.css" rel="stylesheet">
+    <style>
+        * {
+            /* border: solid 1px; */
+        }
+    </style>
 </head>
 
 <body>
-
-
-    <div class="container">
+    <div class="container mt-5">
         <div class="paymentLog">
+            <h3 class="text-center my-4">Payment Log</h3>
+            <table class="table table-sm table-hover table-bordered ">
+                <thead class="text-center font-weight-bold">
+                    <tr>
+                        <th class="tableCol" scope="col">No</th>
+                        <th class="tableCol" scope="col">Date</th>
+                        <th class="tableCol" scope="col">Credit</th>
+                        <th class="tableCol" scope="col">Package Name</th>
+                        <th class="tableCol" scope="col">Receipt ID</th>
+                        <th class="tableCol" scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="tableCol" scope="row">1</th>
+                        <td class="tableCol">20/10/2019</td>
+                        <td class="tableCol">200</td>
+                        <td class="tableCol">B</td>
+                        <td class="tableCol">#1234</td>
+                        <td class="tableCol">
+                            <button type="button" class="btn btn-info btn-sm m-0">PDF</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
         </div>
 

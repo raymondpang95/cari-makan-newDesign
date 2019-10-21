@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.tableCol {
+  padding: 4px 8px !important;
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+.mention .card {
+  background-color: #e6e6e6 !important;
+  width: 50%;
+}
+
+.blackCard {
+  background-color: #1d232a;
+}
+
+.blackCard .textColor {
+  color: #BBBDBF;
+}
+/*# sourceMappingURL=style.css.map */
